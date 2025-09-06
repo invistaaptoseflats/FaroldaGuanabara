@@ -1,168 +1,4 @@
-
-<html><head>
-
-  
-   <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-        
-        body {
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #005ca9 0%, #002b5c 100%);
-            color: white;
-            padding: 30px 0;
-            text-align: center;
-            margin-bottom: 30px;
-            border-radius: 0 0 10px 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-        
-        .subtitle {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-        
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin-bottom: 40px;
-        }
-        
-        .map-container {
-            flex: 1;
-            min-width: 300px;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            height: 450px;
-        }
-        
-        .info-card {
-            flex: 1;
-            min-width: 300px;
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        
-        .info-card h2 {
-            color: #005ca9;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #f0f0f0;
-        }
-        
-        .address {
-            margin-bottom: 25px;
-        }
-        
-        .address p {
-            margin-bottom: 5px;
-            display: flex;
-            align-items: center;
-        }
-        
-        .address i {
-            margin-right: 10px;
-            color: #005ca9;
-        }
-        
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 15px;
-            margin-top: 20px;
-        }
-        
-        .feature {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-        
-        .feature i {
-            margin-right: 10px;
-            color: #005ca9;
-            font-size: 1.2rem;
-        }
-        
-        .cta {
-            background: linear-gradient(135deg, #005ca9 0%, #002b5c 100%);
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-            border-radius: 10px;
-            margin-top: 30px;
-        }
-        
-        .cta h2 {
-            margin-bottom: 20px;
-        }
-        
-        .btn {
-            display: inline-block;
-            background: white;
-            color: #005ca9;
-            padding: 12px 30px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            margin-top: 15px;
-            transition: all 0.3s ease;
-        }
-        
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-        }
-        
-        footer {
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            color: #777;
-            border-top: 1px solid #eee;
-        }
-        
-        @media (max-width: 768px) {
-            .content {
-                flex-direction: column;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
-  
-  
-  
-  
-  
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link rel="preconnect" href="https://components.mywebsitebuilder.com/" crossorigin=""><link rel="preconnect" href="https://in-app.mywebsitebuilder.com/" crossorigin=""><meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1,initial-scale=1,viewport-fit=cover"><meta charset="utf-8"><meta name="description" content="Studio, 1, 2 ou 3 Quartos Com Lazer Completo na Cobertura e Vista Eterna para a Baía de Guanabara. Localizado ao Lado do Residencial Baía, que foi absoluto sucesso de vendas no Porto Maravilha, o Farol da Guanabara Residencial é sua Última oportunidade de Comprar no Porto Maravilha com Vista Eterna para a Baía de Guanabara, e Garantir o Alto potencial de Valorização."><title>Farol da Guanabara - Porto Maravilha - Imoveis Cury Rj</title><link rel="shortcut icon" href="https://storage.googleapis.com/production-hostgator-brasil-v1-0-8/858/977858/BqmMOxhX/a7826d4a2ef445dba549c4603c10553c"><link href="https://components.mywebsitebuilder.com/fonts/font-awesome.css" rel="stylesheet"><meta property="og:title" content="Farol da Guanabara - Porto Maravilha"><meta property="og:description" content="Studio, 1, 2 ou 3 Quartos Com Lazer Completo na Cobertura e Vista Eterna para a Baía de Guanabara. Localizado ao Lado do Residencial Baía, que foi absoluto sucesso de vendas no Porto Maravilha, o Farol da Guanabara Residencial é sua Última oportunidade de Comprar no Porto Maravilha com Vista Eterna para a Baía de Guanabara, e Garantir o Alto potencial de Valorização."><meta property="og:type" content="website"><meta property="twitter:title" content="Farol da Guanabara - Porto Maravilha"><meta property="twitter:description" content="Studio, 1, 2 ou 3 Quartos Com Lazer Completo na Cobertura e Vista Eterna para a Baía de Guanabara. Localizado ao Lado do Residencial Baía, que foi absoluto sucesso de vendas no Porto Maravilha, o Farol da Guanabara Residencial é sua Última oportunidade de Comprar no Porto Maravilha com Vista Eterna para a Baía de Guanabara, e Garantir o Alto potencial de Valorização."><link prefetch="" prerender="/residencial-carola"><link prefetch="" prerender="/residencial-pixinguinha"><link prefetch="" prerender="/caminhos-da-guanabara"><link prefetch="" prerender="/ciata-porto-maravilha"><link prefetch="" prerender="/av-venezuela-194"><link prefetch="" prerender="/metropolitan-dream"><link prefetch="" prerender="/the-pier-niteroi"><link prefetch="" prerender="/nova-norte-ginga"><link prefetch="" prerender="/heitor-dos-prazeres"><link prefetch="" prerender="/americas-19-recreio"><link prefetch="" prerender="/porto-maravilha-residencial"><link prefetch="" prerender="/mirante-da-guanabara-porto-maravilha"><link prefetch="" prerender="/origem-porto-imperial"><link prefetch="" prerender="/quinta-do-bispo"><link prefetch="" prerender="/baia-porto-maravilha"><link prefetch="" prerender="/niteroi-rio-branco-200"><link prefetch="" prerender="/nova-norte-samba"><link prefetch="" prerender="/connect-bonsucesso"><link prefetch="" prerender="/epicentro-porto-maravilha"><link prefetch="" prerender="/"><link prefetch="" prerender="/taquara"><link prefetch="" prerender="/cachambi"><link prefetch="" prerender="/vargas-1140"><link prefetch="" prerender="/seja-um-corretor-cury"><link prefetch="" prerender="/rio-energy"><link prefetch="" prerender="/cury-construtora-contrata"><link prefetch="" prerender="/cury-contrata-corretores-de-imoveis"><link prefetch="" prerender="/cury-contrata-gerentes-de-vendas"><link prefetch="" prerender="/rio-wonder">
+<html><head><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link rel="preconnect" href="https://components.mywebsitebuilder.com/" crossorigin=""><link rel="preconnect" href="https://in-app.mywebsitebuilder.com/" crossorigin=""><meta name="viewport" content="width=device-width,maximum-scale=1,minimum-scale=1,initial-scale=1,viewport-fit=cover"><meta charset="utf-8"><meta name="description" content="Studio, 1, 2 ou 3 Quartos Com Lazer Completo na Cobertura e Vista Eterna para a Baía de Guanabara. Localizado ao Lado do Residencial Baía, que foi absoluto sucesso de vendas no Porto Maravilha, o Farol da Guanabara Residencial é sua Última oportunidade de Comprar no Porto Maravilha com Vista Eterna para a Baía de Guanabara, e Garantir o Alto potencial de Valorização."><title>Farol da Guanabara - Porto Maravilha - Imoveis Cury Rj</title><link rel="shortcut icon" href="https://storage.googleapis.com/production-hostgator-brasil-v1-0-8/858/977858/BqmMOxhX/a7826d4a2ef445dba549c4603c10553c"><link href="https://components.mywebsitebuilder.com/fonts/font-awesome.css" rel="stylesheet"><meta property="og:title" content="Farol da Guanabara - Porto Maravilha"><meta property="og:description" content="Studio, 1, 2 ou 3 Quartos Com Lazer Completo na Cobertura e Vista Eterna para a Baía de Guanabara. Localizado ao Lado do Residencial Baía, que foi absoluto sucesso de vendas no Porto Maravilha, o Farol da Guanabara Residencial é sua Última oportunidade de Comprar no Porto Maravilha com Vista Eterna para a Baía de Guanabara, e Garantir o Alto potencial de Valorização."><meta property="og:type" content="website"><meta property="twitter:title" content="Farol da Guanabara - Porto Maravilha"><meta property="twitter:description" content="Studio, 1, 2 ou 3 Quartos Com Lazer Completo na Cobertura e Vista Eterna para a Baía de Guanabara. Localizado ao Lado do Residencial Baía, que foi absoluto sucesso de vendas no Porto Maravilha, o Farol da Guanabara Residencial é sua Última oportunidade de Comprar no Porto Maravilha com Vista Eterna para a Baía de Guanabara, e Garantir o Alto potencial de Valorização."><link prefetch="" prerender="/residencial-carola"><link prefetch="" prerender="/residencial-pixinguinha"><link prefetch="" prerender="/caminhos-da-guanabara"><link prefetch="" prerender="/ciata-porto-maravilha"><link prefetch="" prerender="/av-venezuela-194"><link prefetch="" prerender="/metropolitan-dream"><link prefetch="" prerender="/the-pier-niteroi"><link prefetch="" prerender="/nova-norte-ginga"><link prefetch="" prerender="/heitor-dos-prazeres"><link prefetch="" prerender="/americas-19-recreio"><link prefetch="" prerender="/porto-maravilha-residencial"><link prefetch="" prerender="/mirante-da-guanabara-porto-maravilha"><link prefetch="" prerender="/origem-porto-imperial"><link prefetch="" prerender="/quinta-do-bispo"><link prefetch="" prerender="/baia-porto-maravilha"><link prefetch="" prerender="/niteroi-rio-branco-200"><link prefetch="" prerender="/nova-norte-samba"><link prefetch="" prerender="/connect-bonsucesso"><link prefetch="" prerender="/epicentro-porto-maravilha"><link prefetch="" prerender="/"><link prefetch="" prerender="/taquara"><link prefetch="" prerender="/cachambi"><link prefetch="" prerender="/vargas-1140"><link prefetch="" prerender="/seja-um-corretor-cury"><link prefetch="" prerender="/rio-energy"><link prefetch="" prerender="/cury-construtora-contrata"><link prefetch="" prerender="/cury-contrata-corretores-de-imoveis"><link prefetch="" prerender="/cury-contrata-gerentes-de-vendas"><link prefetch="" prerender="/rio-wonder">
 
 <!-- Global site tag (gtag.js) - Google Ads: 10829769984 -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-10829769984"></script>
@@ -434,68 +270,34 @@ Clique aqui</font></b></a><b> e agende uma visita </b></font></font></font></fon
 
 
 
-     <header>
-        <div class="container">
-            <h1>Farol da Barra Residencial</h1>
-            <p class="subtitle">Conheça nossa localização privilegiada no Rio de Janeiro</p>
-        </div>
-    </header>
+
     
-    <div class="container">
-        <div class="content">
-            <div class="map-container">
-                <!-- Mapa com a localização do Farol da Barra Residencial -->
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.374330613506!2d-43.20367034148212!3d-22.8963427652991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997ee00f3b3f%3A0x3a6f2c18c457cdf0!2sAv.%20Rodrigues%20Alves%2C%201%20-%20Santo%20Cristo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020281-250!5e0!3m2!1spt-BR!2sbr!4v1648844080310!5m2!1spt-BR!2sbr" 
-                    width="100%" 
-                    height="100%" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe>
-            </div>
-            
-            <div class="info-card">
-                <h2>Informações de Localização</h2>
-                
-                <div class="address">
-                    <p><i>📍</i> <strong>Endereço:</strong> Av. Rodrigues Alves, 1 - Santo Cristo</p>
-                    <p><i>🏙️</i> <strong>Cidade:</strong> Rio de Janeiro - RJ</p>
-                    <p><i>📮</i> <strong>CEP:</strong> 20081-250</p>
-                    <p><i>🧭</i> <strong>Coordenadas:</strong> -22.8963427652991, -43.20367034148212</p>
-                </div>
-                
-                <h3>Vantagens da Localização</h3>
-                <div class="features">
-                    <div class="feature">
-                        <i>⏱️</i> <span>Próximo ao centro</span>
-                    </div>
-                    <div class="feature">
-                        <i>🚇</i> <span>Fácil acesso ao transporte</span>
-                    </div>
-                    <div class="feature">
-                        <i>🛍️</i> <span>Perto de comércios</span>
-                    </div>
-                    <div class="feature">
-                        <i>🌉</i> <span>Vista para o mar</span>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="position-relative kv-content">
+    <div class="kv-control-placeholder kv-_section" data-kv-control="content">
+  </div> <div class="kv-ee-section"><div class="kv-ee-container-fluid"><div class="kv-ee-row kv-ee-maps-container "><iframe data-type="googlemaps" class="kv-ee-googlemaps-wrapper" allowfullscreen="true"></iframe></div>  </div></div>
+  </div>
+</section>
+
+      <div class="kv-control-placeholder kv-_page" data-kv-control="6">
+  </div> <section class="background-id_0m14 section-1648844080310 qukefe54 undefined" style=" position:relative;">
+  <a name="section1648844080310"></a>
+    <div class="kv-control-placeholder kv-_section" data-kv-control="background">
+  </div> <div class="kv-background  " style=" background-color: rgb(255,255,255);">
         
-        <div class="cta">
-            <h2>Agende uma visita</h2>
-            <p>Venha conhecer o Farol da Barra Residencial e todas as vantagens dessa localização privilegiada</p>
-            <a href="#contact" class="btn">Entrar em contato</a>
-        </div>
-    </div>
+        <div class="kv-background-inner " data-image="background-image: url('https://images.builderservices.io/s/cdn/v1.0/i/m?url=https%3A%2F%2Fstorage.googleapis.com%2Fproduction-hostgator-brasil-v1-0-8%2F858%2F977858%2FBqmMOxhX%2F4cb6d117dfa241d9b50c2d7fffda60f3&amp;methods=resize%2C2000%2C5000');" style="
+          
+          
+          
+          background-color: rgb(255,255,255);
+          opacity: 0.3;"></div>
+          
+</div>
 
 
 
 
 
 
-    
 
     
 
